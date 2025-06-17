@@ -1,0 +1,9 @@
+OOPS-object-oriented programming, your overall program is made up of lots of different 
+self-contained components (objects), each of which has a specific role in the program and 
+all of which can talk to each other in predefined ways.
+
+ A class is a template for multiple objects with similar features.
+Classes resonate all the TERM features of a particular set of objects.
+
+When you write a program in an object-oriented language, you don’t define actual objects. 
+You define classes of objects.
