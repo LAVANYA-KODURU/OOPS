@@ -1,0 +1,48 @@
+🧠 What is Control Flow in Java?
+
+Control Flow means the order in which individual statements, instructions, or function calls are executed in a Java program.
+📌 By default, Java executes code top to bottom, one line after another.
+
+But using control statements like if, for, while, break, etc., we can control how and when things run.
+
+✅ There are 3 Main Types of Control Flow in Java:
+
+1. Conditional (Decision-Making) Statements
+These allow the program to make choices.
+
+Statement	Purpose
+if	Executes code only if condition is true
+if-else	Chooses between two blocks
+if-else-if	Checks multiple conditions
+switch	Matches a variable with multiple constant values
+2. Looping (Iteration) Statements
+These allow the program to repeat a block of code.
+
+Loop	Purpose
+for	Loop with known number of iterations
+while	Loop with unknown number of iterations
+do-while	Same as while but runs at least once
+3. Jump (Branching) Statements
+These are used to change the normal flow — jump out or skip parts of code.
+
+Keyword	What it does
+break	Exits loop or switch
+continue	Skips current loop iteration
+return	Exits from a method
+🔁 In Short:
+
+🧭 Control Flow = The path your code follows when it runs.
+With control flow statements, you’re the boss — you tell your program when to repeat, skip, choose, or stop.
+
+💬 Example of All in One:
+
+for (int i = 1; i <= 5; i++) {
+    if (i == 3) continue; // skips 3
+    if (i == 5) break;    // stops loop at 5
+    System.out.println(i);
+}
+🧠 Output:
+
+1
+2
+4
